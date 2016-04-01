@@ -1,9 +1,0 @@
-#waltdisneypicture {padding: 5pt; float: right; height: 25%; width: 25%;}
-
-#mickeypicture {padding: 5pt; float: left; height: 25%; width: 25%;}
-
-section.section1 {background-color:skyblue; visibility:hidden; position: fixed; width: 600px;}
-
-section.section2 {background-color:gold; visibility:hidden; position: fixed; width: 600px;}
-
-footer {font-family: italics; text-align: center; position: absolute; width: 100%; bottom: 0px;}
