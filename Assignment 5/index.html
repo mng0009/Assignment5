@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Madison German Assignment 5</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Assignment5.css" />
+    <script src="JavaScript/Assignment5.js"></script>
+</head>
+
+<body>
+    <section id="title">
+        <h1>Madison German Assignment 5</h1>
+        <hr>
+            <select onchange="MenuChoice()" id="menu">
+                <option>Navigation</option>
+                <option>Customer Information</option>
+                <option>Customer's Order History</option>
+                <option>Customer's Current Orders</option>
+            </select>
+        <hr>
+    </section>
+    
+    <section id="section1" class="section1">
+        <h2>Customer Information</h2>
+        <button onclick= "GetInformation()" id ="info">Get Customer Information</button>
+        <br>
+        <br>
+        <label id = "customerdisplay">Customer's information will display here: </label>
+        <br>
+        <hr>
+    </section>
+    
+    <section id="section2" class="section2">
+        <h3>Customer's Order History</h3>
+        <hr>
+        <label>Please enter a Customer ID: </label>
+        <input type="text" id="customerid">
+        <br>
+        <br>
+        <button onclick="GetOrderHistory()" id="previousorders">Get Customer Order History</button>
+        <br>
+        <br>
+        <label id = "previousordersdisplay">Customer's previous orders will display here:</label>
+        <hr>
+    </section>
+    
+    <section id="section3" class="section3">
+        <h4>Customer's Current Orders</h4>
+        <hr>
+        <label>Please enter a Customer ID: </label>
+        <input type= "text" id="anothercustomerid">
+        <br>
+        <br>
+        <button onclick= "GetCurrentOrder()" id= "currentorders">Get Current Orders</button>
+        <br>
+        <br>
+        <label id = "currentordersdisplay">Customer's current orders will display here:</label>
+        <br>
+        <hr>
+    </section>
+        
+</body>
+</html>
