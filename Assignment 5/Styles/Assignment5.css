@@ -1,10 +1,10 @@
 #orderdisplay {background-color: #FFFFCC; }
 
-section.section1 {background-color:skyblue; visibility:hidden; position: absolute; width: 40%;}
+section.section1 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
 
-section.section2 {background-color:gold; visibility:hidden; position: absolute; width: 40%;}
+section.section2 {background-color:gold; visibility:hidden; position: absolute; width: 600px;}
 
-section.section3 {background-color:skyblue; visibility:hidden; position: absolute; width: 40%;}
+section.section3 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
 
 td {border: solid black 1pt;}
 
