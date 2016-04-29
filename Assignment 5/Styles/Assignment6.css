@@ -1,9 +1,0 @@
-#orderdisplay {background-color: #FFFFCC; }
-
-section.section1 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
-
-section.section2 {background-color:gold; visibility:hidden; position: absolute; width: 600px;}
-
-section.section3 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
-
-label.section1 {font-style: bold; color: blue;}
