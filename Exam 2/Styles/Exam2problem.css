@@ -1,0 +1,23 @@
+#orderdisplay {background-color: #FFFFCC; }
+
+section.section1 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
+
+section.section2 {background-color:gold; visibility:hidden; position: absolute; width: 600px;}
+
+section.section3 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
+
+section.section4 {background-color:gold; visibility:hidden; position: absolute; width: 600px;}
+
+section.section5 {background-color:skyblue; visibility:hidden; position: absolute; width: 600px;}
+
+td {border: solid black 1pt;}
+
+tr {border: solid black 1pt;}
+
+th {border: solid black 1pt;}
+
+table {border: 1px solid black;}
+
+#picture {padding: 5pt; float: right; height: 25%; width: 25%;}
+
+footer {font-family: italics; text-align: center; position: absolute; width: 100%; bottom: 0px;}

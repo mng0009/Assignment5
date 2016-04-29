@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Madison German, Exam 2</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Exam2problem.css" />
+    <script src="JavaScript/Exam2problem.js"></script>
+</head>
+
+<body>
+
+<section id="title">
+        <h1>Madison German, Exam 2</h1>
+        <hr>
+            <select onchange="MenuChoice()" id="menu">
+                <option>Navigation</option>
+                <option>Display Category List</option>
+                <option>Add Category</option>
+                <option>Change Category Description</option>
+                <option>Delete Category</option>
+                <option>About Me</option>
+            </select>
+        <hr>
+</section>
+
+<section id="section1" class="section1">
+    <h2>Display Category List</h2>
+    <button onclick= "DisplayCategory()" id ="info">Get Category List</button>
+        <br>
+        <br>
+        <label id = "categorylist">A list of categories will display here: </label>
+        <br>
+        <hr>
+</section>
+
+<section id="section2" class="section2">
+        <h3>Add Category</h3>
+            <label>Category Name: </label>
+            <input type="text" id="categoryname">
+        <br>
+            <label>Category Description: </label>
+            <input type="text" id="categorydescription">
+        <br>
+            <button onclick= "AddCategory()" id ="newcategory">Add a New Category</button>
+        <br>
+        <br>
+            <label id = "newcategoryresult">New category will display here: </label>
+        <br>
+        <hr>
+</section>
+
+<section id="section3" class="section3">
+    <h4>Change Category Description</h4>
+    <label>Category ID: </label>
+            <input type="number" id="categoryid">
+        <br>
+            <label>Category Description: </label>
+            <input type="text" id="categorydescription">
+        
+        <br>
+        <button onclick= "ChangeDescription()" id ="updatedescription">Update Category Description</button>
+        <br>
+        <br>
+            <label id ="changecategoryresult">Category description updates will display here: </label>
+        <br>
+        <hr>
+</section>
+
+<section id="section4" class="section4">
+    <h5>Delete Category</h5>
+    <hr>
+        <label>Please enter the Category ID you wish to delete: </label>
+        <input type= "number" id="entercategoryid">
+        <br>
+        <br>
+        <button onclick= "DeleteCategory()" id= "deletecategory">Delete Category</button>
+        <br>
+        <br>
+        <label id = "deleteresult"></label>
+        <br>
+        <hr>
+</section>
+
+<section id="section5" class="section5">
+    <h6>About Me</h6>
+    <br>
+    <img src="Images/IMG_2067.JPG" id="picture">
+    <br>
+        <label>I have thoroughly enjoyed this class, although it has been challenging. I am looking forward to graduation this Spring and I know the information I learned will greatly benefit me in my career.</label>
+        <br>
+</section>
+
+ <div
+        class="div1">
+    <footer>
+        <p>Madison German mng0009@uab.edu</p>
+    </footer>
+    </div>
+
+</body>
+</html>
